@@ -78,13 +78,22 @@ export default function ContractCard({
           🚀 Deploy
         </button>
         {/* Mint NFT */}
-        <button
-          className="bg-linear-to-r from-blue-500 to-sky-600 hover:from-blue-400 hover:to-sky-500 text-white font-bold px-5 py-2 rounded-lg text-sm shadow-lg disabled:opacity-50 flex-1"
-          onClick={() => mintBadge(contract.name, deployedAddress)}
-          disabled={!contractStatus?.canMint}
-        >
-          🪙 Mint NFT
-        </button>
+        {contract.name === "Salesperson" || contract.name === "EngineeringManager" ? (
+          <button
+            className="bg-gray-500 text-white font-bold px-5 py-2 rounded-lg text-sm shadow-lg flex-1 cursor-not-allowed"
+            disabled
+          >
+            No Need
+          </button>
+        ) : (
+          <button
+            className="bg-linear-to-r from-blue-500 to-sky-600 hover:from-blue-400 hover:to-sky-500 text-white font-bold px-5 py-2 rounded-lg text-sm shadow-lg disabled:opacity-50 flex-1"
+            onClick={() => mintBadge(contract.name, deployedAddress)}
+            disabled={!contractStatus?.canMint}
+          >
+            🪙 Mint NFT
+          </button>
+        )}
   {/* Buttons sonu */}
       </div>
 

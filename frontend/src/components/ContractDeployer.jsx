@@ -104,6 +104,10 @@ export default function ContractDeployer() {
 
   // Mint badge
   const mintBadge = async (contractName, deployedAddress) => {
+    if (contractName === "Salesperson" || contractName === "EngineeringManager") {
+      // İşlevsiz: Mint yapılmayacak
+      return;
+    }
     try {
       const signer = await getSigner();
       if (!signer) {
