@@ -1,0 +1,84 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "Salesperson",
+  "sourceName": "contracts/07_Inheritance.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_idNumber",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_managerId",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_hourlyRate",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "getAnnualCost",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "hourlyRate",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "idNumber",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "managerId",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b5060405161016c38038061016c83398101604081905261002f91610040565b60009290925560015560025561006e565b60008060006060848603121561005557600080fd5b8351925060208401519150604084015190509250925092565b60f08061007c6000396000f3fe6080604052348015600f57600080fd5b506004361060465760003560e01c80633f83ea3b14604b57806359a7b3fe1460655780635cdee0c014606d578063f5895a0a146073575b600080fd5b605360005481565b60405190815260200160405180910390f35b605360025481565b6053607b565b605360015481565b6000600254610820608b91906090565b905090565b808202811582820484141760b457634e487b7160e01b600052601160045260246000fd5b9291505056fea264697066735822122017e7d0d57bb2d5724a523c945142c4fc31e2ee3ce7b22ff8688b2b0f6aa8019d64736f6c63430008180033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060465760003560e01c80633f83ea3b14604b57806359a7b3fe1460655780635cdee0c014606d578063f5895a0a146073575b600080fd5b605360005481565b60405190815260200160405180910390f35b605360025481565b6053607b565b605360015481565b6000600254610820608b91906090565b905090565b808202811582820484141760b457634e487b7160e01b600052601160045260246000fd5b9291505056fea264697066735822122017e7d0d57bb2d5724a523c945142c4fc31e2ee3ce7b22ff8688b2b0f6aa8019d64736f6c63430008180033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

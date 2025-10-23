@@ -1,0 +1,69 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "BasicMath",
+  "sourceName": "contracts/01_BasicMath.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_a",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_b",
+          "type": "uint256"
+        }
+      ],
+      "name": "adder",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "sum",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bool",
+          "name": "error",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_a",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_b",
+          "type": "uint256"
+        }
+      ],
+      "name": "subtractor",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "difference",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bool",
+          "name": "error",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b5061010c806100206000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c806306b034e91460375780635270312a14605f575b600080fd5b6046604236600460b5565b606e565b6040805192835290151560208301520160405180910390f35b6046606a36600460b5565b6096565b60008083830184811015608857600060019250925050608f565b9150600090505b9250929050565b6000808383111560ab5750600090506001608f565b5050900390600090565b6000806040838503121560c757600080fd5b5050803592602090910135915056fea264697066735822122026f3897e11ae0d88ecbe4e3a990780b66b441902e79f8e9c89840c3cc97d360864736f6c63430008180033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060325760003560e01c806306b034e91460375780635270312a14605f575b600080fd5b6046604236600460b5565b606e565b6040805192835290151560208301520160405180910390f35b6046606a36600460b5565b6096565b60008083830184811015608857600060019250925050608f565b9150600090505b9250929050565b6000808383111560ab5750600090506001608f565b5050900390600090565b6000806040838503121560c757600080fd5b5050803592602090910135915056fea264697066735822122026f3897e11ae0d88ecbe4e3a990780b66b441902e79f8e9c89840c3cc97d360864736f6c63430008180033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

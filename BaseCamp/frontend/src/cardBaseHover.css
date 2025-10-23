@@ -1,0 +1,23 @@
+.card-base-hover {
+  position: relative;
+  overflow: hidden;
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+.card-base-hover::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: linear-gradient(135deg, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.2) 100%);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}
+.card-base-hover:hover::after {
+  opacity: 1;
+}
+.card-base-hover:hover {
+  box-shadow: 0 0 0 4px #fff, 0 4px 32px #60a5fa44;
+  transform: scale(1.04);
+}
+

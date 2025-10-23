@@ -1,0 +1,13 @@
+.neon-red-border {
+  border: 2px solid;
+  border-image: linear-gradient(135deg, #ff003c 0%, #ff6b6b 100%) 1;
+  border-radius: 1rem !important;
+  background: none;
+}
+.neon-red-border:hover {
+  border-radius: 1rem !important;
+}
+.neon-red-border:hover {
+  border-radius: 1rem !important;
+}
+
